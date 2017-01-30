@@ -1,35 +1,20 @@
 import React, { Component } from "react";
 import { Button, StyleSheet, Text, View } from "react-native";
-import {
-  NavigationScreenComponent,
-  NavigationScreenOptions,
-  NavigationScreenProp,
-} from "react-navigation";
+import { Actions } from "react-native-router-flux";
+import { Home } from "../index";
 
 export interface IExampleScreenState {
   loaded?: boolean;
 }
 
-export interface IExampleScreenProps {
-  navigation: NavigationScreenProp<any, any>;
-}
-
-export default class Screen extends Component<IExampleScreenProps, IExampleScreenState> {
-  public static navigationOptions: NavigationScreenOptions = {
-    header: () => ({  // ({ state, setParams })
-      style: { backgroundColor: "red" },
-      // title: "Another way",
-    }),
-    title: () => "Example", // ({ state })
-  };
-
+export default class Screen extends Component<{}, IExampleScreenState> {
   public render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
           Example page
         </Text>
-        <Button onPress={() => this.props.navigation.goBack()} title="Go back" />
+        <Button onPress={() => Actions.pop()} title="Home screen" />
         <Text style={styles.instructions}>
           Lorem ipsum solor...
         </Text>
