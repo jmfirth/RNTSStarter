@@ -22,7 +22,7 @@ Full TypeScript support and basic implementation of:
 
 Clone this repository:
 ```sh
-git clone https://github.com/mrpatiwi/ReactNativeTS.git <YourAppName>
+git clone https://github.com/jmfirth/rntsstarter.git <YourAppName>
 cd <YourAppName>
 ```
 
