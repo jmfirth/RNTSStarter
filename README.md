@@ -8,10 +8,8 @@
 Full TypeScript support and basic implementation of:
 
 * React Native (Android and iOS)
-* React Navigation
-* redux
-  - redux-actions
-  - redux-persist
+* Navigation: react-native-router-flux
+* State: redux (with redux-actions and redux-persist)
 
 
 ## Prerequisites
