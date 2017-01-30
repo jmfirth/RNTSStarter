@@ -36,6 +36,7 @@ yarn upgrade
 Install dependencies:
 ```sh
 yarn install
+```
 
 Develop against your chosen platform:
 ```sh
