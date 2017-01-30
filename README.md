@@ -26,7 +26,7 @@ git clone https://github.com/mrpatiwi/ReactNativeTS.git <YourAppName>
 cd <YourAppName>
 ```
 
-Open `package.json` in your favorite text editor and replace the name with `<YourAwesomeName>`
+Open `package.json` in your favorite text editor and replace the name with `<YourAppName>`
 
 Upgrade the project to the latest version:
 ```sh
